@@ -14,7 +14,7 @@ This template deploys a firewall sandwich environment that includes:
 The template creates all the infrastructure and appropriate UDRs in the 10.0.0.0/16 VNET. Post-deployment tasks include:
 
 - Licensing the FW
-- Import the configurations "multi-ip-fw1" and "multi-ip-fw2" into the FW (default username is "paloalto" and default password is "Pal0Alt0@123"
+- Import the configurations "multi-ip-fw1" and "multi-ip-fw2" into the FW (default username is "paloalto" and default password is "Pal0Alt0@123")
 - Installation/configuration of the web server software
 
 To Deploy ARM Template using Azure CLI in ARM mode
