@@ -7,7 +7,7 @@ This template deploys a firewall sandwich environment that includes:
 - One Public Load Balancer (LB-Public)
 - Two Palo Alto Networks Firewalls
 - One Internal Load Balancer (LB-Web)
-- Two Ubuntu Servers that may be used as web servers
+- Two Ubuntu Servers for use as web servers
 - One Egress Load Balancer (LB-Egress)
 - Multiple Subnets and UDRs to support the traffic flow
 
