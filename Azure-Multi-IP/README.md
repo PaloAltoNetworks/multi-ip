@@ -7,14 +7,14 @@ This template deploys a firewall sandwich environment that includes:
 - One Public Load Balancer (LB-Public)
 - Two Palo Alto Networks Firewalls
 - One Internal Load Balancer (LB-Web)
-- Two Web Servers with apache webserver
+- Two Ubuntu Servers that may be used as web servers
 - One Egress Load Balancer (LB-Egress)
 - Multiple Subnets and UDRs to support the traffic flow
 
-This template creates all the infrastructure and appropriate UDRs in the 10.0.0.0/16 VNET. Post-deployment tasks include:
+The template creates all the infrastructure and appropriate UDRs in the 10.0.0.0/16 VNET. Post-deployment tasks include:
 
 - Licensing the FW
-- Configuring the FW
+- Import the configurations "multi-ip-fw1" and "multi-ip-fw2" into the FW (default username is "paloalto" and default password is "Pal0Alt0@123"
 - Installation/configuration of the web server software
 
 To Deploy ARM Template using Azure CLI in ARM mode
