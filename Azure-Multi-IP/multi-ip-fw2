@@ -3,7 +3,7 @@
   <mgt-config>
     <users>
       <entry name="admin">
-        <phash>*</phash>
+        <phash>$1$ydmdwafe$jl/sUeuQBQ2VBnZ3vzzMB0</phash>
         <permissions>
           <role-based>
             <superuser>yes</superuser>
@@ -11,7 +11,7 @@
         </permissions>
       </entry>
       <entry name="paloalto">
-        <phash>$1$wdanmqrd$6ygoVn3HfyNsxX3bSLxDn/</phash>
+        <phash>$1$ppfommvd$CoQhOw51Ep1QVF8cS9IHB0</phash>
         <permissions>
           <role-based>
             <superuser>yes</superuser>
