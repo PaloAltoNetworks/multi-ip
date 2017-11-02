@@ -6,7 +6,7 @@ IMPORTANT: This template was designed to be used with Palo Alto Networks PANOS-8
 
 https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-standard-overview#preview-sign-up
 
-The template is configured to bootstrap the firewalls and use the file bootstrap.xml may be used as the configuration file for both devices. Please refer to the PANOS 8.1 New Features Guide for information on creating a bootstrap package for use with this template.
+The template is configured to bootstrap the firewalls using the file bootstrap.xml, which is used as the configuration file for both devices. Please refer to the PANOS 8.1 New Features Guide for information on creating a bootstrap package for use with this template.
 
 This template deploys a firewall sandwich environment that includes:
 
