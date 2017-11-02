@@ -1,6 +1,6 @@
 # Azure-Any-Port-Budapest-Demo
 
-[<img src="http://azuredeploy.net/deploybutton.png"/>](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fptglynn%2FPaloAltoNetworks%2Fmaster%2FAzure-Any-Port-MD-Budapest%2FazureDeploy.json)
+[<img src="http://azuredeploy.net/deploybutton.png"/>](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FPaloAltoNetworks%2Fmulti-ip%2Fmaster%2FAzure-Any-Port-MD-Budapest%2FazureDeploy.json)
 
 IMPORTANT: This template was designed to be used with Palo Alto Networks PANOS-8.1 as well as the Azure Standard Load Balancer. Both are in preview/beta mode. Please contact your Palo Alto Networks field team to gain access to PANOS 8.1 beta. For the Standard Load Balancer Preview, refer to the following:
 
